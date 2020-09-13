@@ -1,8 +1,8 @@
 package com.example.spring5webapp.bootstrap;
 
-import com.example.spring5webapp.model.Author;
-import com.example.spring5webapp.model.Book;
-import com.example.spring5webapp.model.Publisher;
+import com.example.spring5webapp.models.Author;
+import com.example.spring5webapp.models.Book;
+import com.example.spring5webapp.models.Publisher;
 import com.example.spring5webapp.repositories.AuthorRepository;
 import com.example.spring5webapp.repositories.BookRepository;
 import com.example.spring5webapp.repositories.PublisherRepository;
