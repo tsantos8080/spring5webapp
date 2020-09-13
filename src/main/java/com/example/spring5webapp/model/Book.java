@@ -22,14 +22,16 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, String isbn) {
+    public Book(String title, String isbn, String publisher) {
         this.title = title;
         this.isbn = isbn;
+        this.publisher = publisher;
     }
 
-    public Book(String title, String isbn, Set<Author> authors) {
+    public Book(String title, String isbn, String publisher, Set<Author> authors) {
         this.title = title;
         this.isbn = isbn;
+        this.publisher = publisher;
         this.authors = authors;
     }
 
